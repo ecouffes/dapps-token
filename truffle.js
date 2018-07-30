@@ -1,7 +1,7 @@
 // mnemonic（ニーモニック）からウォレットを作成し、そのウォレットのアカウントを使ってプログラム上から簡単にトランザクションを発行できる仕組み
 var HDWalletProvider = require('truffle-hdwallet-provider');
 // metamaskのニーモニック
-var mnemonic = process.env.ROPSTEN_MNEMONIC;
+var mnemonic = process.env.MNEMONIC;
 // infraのアクセストークン
 var accessToken = process.env.INFURA_ACCESS_TOKEN;
 
